@@ -1,0 +1,25 @@
+{
+  "orientacoes": 15,
+  "temas": 3,
+  "casos": 22,
+  "acertos": 20,
+  "tempo_medio_ms": 0.0238,
+  "mediana_ms": 0.0216,
+  "repeticoes_por_caso": 100,
+  "roteiros": 6,
+  "roteiros_aprovados": 6,
+  "erros_base_testados": 5,
+  "erros_base_tratados": 5,
+  "formatos": {
+    "A": {
+      "respostas": 15,
+      "pontuacao": 30,
+      "pontuacao_maxima": 75
+    },
+    "B": {
+      "respostas": 15,
+      "pontuacao": 75,
+      "pontuacao_maxima": 75
+    }
+  }
+}

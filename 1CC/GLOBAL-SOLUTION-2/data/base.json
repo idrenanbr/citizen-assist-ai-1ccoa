@@ -1,0 +1,357 @@
+{
+  "temas": [
+    {
+      "id": "documentos",
+      "nome": "Documentos",
+      "subtemas": {
+        "identidade": "Identificação",
+        "carteiras-digitais": "Carteiras digitais",
+        "certidoes": "Certidões e viagens"
+      },
+      "relacionados": [
+        "servicos-digitais",
+        "apoio-comunitario"
+      ]
+    },
+    {
+      "id": "servicos-digitais",
+      "nome": "Serviços digitais",
+      "subtemas": {
+        "acesso": "Acesso ao GOV.BR",
+        "consultas": "Consultas e aplicativos"
+      },
+      "relacionados": [
+        "documentos",
+        "apoio-comunitario"
+      ]
+    },
+    {
+      "id": "apoio-comunitario",
+      "nome": "Apoio comunitário",
+      "subtemas": {
+        "assistencia": "Assistência social",
+        "direitos": "Canais de direitos",
+        "saude": "Localização de serviços de saúde"
+      },
+      "relacionados": [
+        "servicos-digitais",
+        "documentos"
+      ]
+    }
+  ],
+  "orientacoes": [
+    {
+      "id": "doc-cin",
+      "tema": "documentos",
+      "subtema": "identidade",
+      "titulo": "Primeira via da Carteira de Identidade Nacional",
+      "pergunta": "Como tirar a primeira via da CIN em São Paulo?",
+      "palavras_chave": [
+        "cin",
+        "carteira de identidade",
+        "identidade nacional",
+        "novo rg",
+        "primeira via rg"
+      ],
+      "orientacao": "Consulte o serviço da SSP de São Paulo para emitir a primeira via da Carteira de Identidade Nacional. A primeira via é gratuita. Use as instruções da página para verificar a documentação e o atendimento.",
+      "fonte": {
+        "orgao": "Secretaria da Segurança Pública de São Paulo",
+        "url": "https://www.ssp.sp.gov.br/servicos/emissao-cin"
+      },
+      "abrangencia": "São Paulo",
+      "data_verificacao": "2026-11-17"
+    },
+    {
+      "id": "doc-cpf",
+      "tema": "documentos",
+      "subtema": "identidade",
+      "titulo": "Situação cadastral do CPF",
+      "pergunta": "Onde consultar a situação do meu CPF?",
+      "palavras_chave": [
+        "cpf",
+        "situação cadastral",
+        "comprovante cpf",
+        "cadastro cpf",
+        "regularidade cpf"
+      ],
+      "orientacao": "Abra o serviço da Receita Federal para consultar a situação cadastral do CPF. Na página oficial também há opção de emitir o comprovante da consulta.",
+      "fonte": {
+        "orgao": "Receita Federal",
+        "url": "https://www.gov.br/pt-br/servicos/consultar-cadastro-de-pessoas-fisicas?id=1180&origem=servico"
+      },
+      "abrangencia": "Brasil",
+      "data_verificacao": "2026-11-17"
+    },
+    {
+      "id": "doc-cnh",
+      "tema": "documentos",
+      "subtema": "carteiras-digitais",
+      "titulo": "CNH no celular",
+      "pergunta": "Como ter a CNH digital no celular?",
+      "palavras_chave": [
+        "cnh",
+        "habilitação digital",
+        "cnh digital",
+        "cnh no celular",
+        "carteira digital de trânsito",
+        "cnh do brasil"
+      ],
+      "orientacao": "Acesse o serviço da Senatran e siga o link de instalação do aplicativo CNH do Brasil, identificado na página como CDT. Nele você pode acessar a versão digital da habilitação.",
+      "fonte": {
+        "orgao": "Senatran",
+        "url": "https://www.gov.br/pt-br/servicos/obter-carteira-digital-de-transito"
+      },
+      "abrangencia": "Brasil",
+      "data_verificacao": "2026-11-17"
+    },
+    {
+      "id": "doc-eleitoral",
+      "tema": "documentos",
+      "subtema": "certidoes",
+      "titulo": "Certidão de quitação eleitoral",
+      "pergunta": "Como emitir a certidão de quitação eleitoral?",
+      "palavras_chave": [
+        "quitação eleitoral",
+        "certidão eleitoral",
+        "certidão de votação",
+        "título eleitoral"
+      ],
+      "orientacao": "Acesse a página de certidões do TSE e siga para o Autoatendimento Eleitoral. Selecione a emissão de certidão de quitação. Se precisar de ajuda, procure a zona eleitoral do seu título.",
+      "fonte": {
+        "orgao": "Tribunal Superior Eleitoral",
+        "url": "https://www.tse.jus.br/servicos-eleitorais/certidoes"
+      },
+      "abrangencia": "Brasil",
+      "data_verificacao": "2026-11-17"
+    },
+    {
+      "id": "doc-passaporte",
+      "tema": "documentos",
+      "subtema": "certidoes",
+      "titulo": "Solicitação de passaporte",
+      "pergunta": "Por onde começo a solicitar um passaporte?",
+      "palavras_chave": [
+        "passaporte",
+        "tirar passaporte",
+        "solicitar passaporte",
+        "documento de viagem"
+      ],
+      "orientacao": "Comece na página oficial da Polícia Federal no GOV.BR. Consulte a documentação e as etapas de solicitação, pagamento e agendamento descritas para o seu caso.",
+      "fonte": {
+        "orgao": "Polícia Federal",
+        "url": "https://www.gov.br/pt-br/servicos/obter-passaporte-comum-para-brasileiro"
+      },
+      "abrangencia": "Brasil",
+      "data_verificacao": "2026-11-17"
+    },
+    {
+      "id": "dig-criar",
+      "tema": "servicos-digitais",
+      "subtema": "acesso",
+      "titulo": "Criação de conta GOV.BR",
+      "pergunta": "Como criar minha conta GOV.BR?",
+      "palavras_chave": [
+        "criar conta",
+        "abrir conta gov br",
+        "cadastro gov br",
+        "primeiro acesso gov br",
+        "criar gov br"
+      ],
+      "orientacao": "Na página Criar sua conta GOV.BR, selecione a opção para iniciar o serviço e siga o cadastro no portal oficial. A conta dá acesso a diferentes serviços do governo.",
+      "fonte": {
+        "orgao": "Governo Digital",
+        "url": "https://www.gov.br/pt-br/servicos/criar-sua-conta-gov.br"
+      },
+      "abrangencia": "Brasil",
+      "data_verificacao": "2026-11-17"
+    },
+    {
+      "id": "dig-senha",
+      "tema": "servicos-digitais",
+      "subtema": "acesso",
+      "titulo": "Recuperação de acesso ao GOV.BR",
+      "pergunta": "Como recuperar a senha da minha conta GOV.BR?",
+      "palavras_chave": [
+        "esqueci senha",
+        "esqueci minha senha",
+        "recuperar senha",
+        "senha gov br",
+        "recuperar acesso",
+        "perdi acesso gov br",
+        "não lembro a senha"
+      ],
+      "orientacao": "Na tela oficial da conta GOV.BR, use a opção de recuperação de senha. Siga um dos métodos apresentados para a sua conta. A página de ajuda orienta também sobre o formulário quando as opções de recuperação não funcionam.",
+      "fonte": {
+        "orgao": "Governo Digital",
+        "url": "https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/atendimento-gov.br/duvidas-na-conta-gov.br/recuperar-senha-da-conta-gov.br/recuperar-senha-da-conta-gov.br/"
+      },
+      "abrangencia": "Brasil",
+      "data_verificacao": "2026-11-17"
+    },
+    {
+      "id": "dig-inss",
+      "tema": "servicos-digitais",
+      "subtema": "consultas",
+      "titulo": "Meu INSS",
+      "pergunta": "Onde vejo meus requerimentos do INSS?",
+      "palavras_chave": [
+        "inss",
+        "meu inss",
+        "requerimento inss",
+        "extrato inss",
+        "benefício inss"
+      ],
+      "orientacao": "Abra o serviço Meu INSS pelo site ou aplicativo oficial e entre com a conta GOV.BR. Lá você pode acompanhar pedidos e consultar extratos e documentos disponíveis para a sua conta.",
+      "fonte": {
+        "orgao": "Instituto Nacional do Seguro Social",
+        "url": "https://www.gov.br/inss/pt-br/canais_atendimento/meu-inss/meu-inss"
+      },
+      "abrangencia": "Brasil",
+      "data_verificacao": "2026-11-17"
+    },
+    {
+      "id": "dig-ctps",
+      "tema": "servicos-digitais",
+      "subtema": "consultas",
+      "titulo": "Carteira de Trabalho Digital",
+      "pergunta": "Como acessar a Carteira de Trabalho Digital?",
+      "palavras_chave": [
+        "ctps",
+        "carteira de trabalho",
+        "carteira de trabalho digital",
+        "vínculos de emprego",
+        "contrato na carteira"
+      ],
+      "orientacao": "Abra o serviço oficial para obter a Carteira de Trabalho e entre com a conta GOV.BR. O acesso digital está disponível pelos canais indicados na página do Ministério do Trabalho e Emprego.",
+      "fonte": {
+        "orgao": "Ministério do Trabalho e Emprego",
+        "url": "https://www.gov.br/pt-br/servicos/obter-a-carteira-de-trabalho?codRev=24548&cod_rev=24548"
+      },
+      "abrangencia": "Brasil",
+      "data_verificacao": "2026-11-17"
+    },
+    {
+      "id": "dig-registrato",
+      "tema": "servicos-digitais",
+      "subtema": "consultas",
+      "titulo": "Relatórios do Registrato",
+      "pergunta": "Como consultar relatórios do Banco Central sobre minhas contas?",
+      "palavras_chave": [
+        "registrato",
+        "relatório banco central",
+        "minhas contas em bancos",
+        "relatório de contas bancárias",
+        "relatórios do banco central"
+      ],
+      "orientacao": "Acesse o Registrato pelo Banco Central. O serviço informa que é necessário entrar com conta GOV.BR prata ou ouro e ter a verificação em duas etapas habilitada.",
+      "fonte": {
+        "orgao": "Banco Central do Brasil",
+        "url": "https://www.bcb.gov.br/cidadaniafinanceira/registrato?hidemenu=true"
+      },
+      "abrangencia": "Brasil",
+      "data_verificacao": "2026-11-17"
+    },
+    {
+      "id": "apo-cras",
+      "tema": "apoio-comunitario",
+      "subtema": "assistencia",
+      "titulo": "Unidades do CRAS em São Paulo",
+      "pergunta": "Onde encontro um CRAS em São Paulo?",
+      "palavras_chave": [
+        "cras",
+        "centro de referência de assistência social",
+        "unidade de assistência social",
+        "endereço do cras"
+      ],
+      "orientacao": "Consulte a página de CRAS da Prefeitura de São Paulo para localizar uma unidade. Confira o endereço e o canal da unidade antes de se deslocar.",
+      "fonte": {
+        "orgao": "Prefeitura de São Paulo • Assistência Social",
+        "url": "https://www2.prefeitura.sp.gov.br/web/assistencia_social/w/protecao_social_basica/1906"
+      },
+      "abrangencia": "Município de São Paulo",
+      "data_verificacao": "2026-11-17"
+    },
+    {
+      "id": "apo-cadunico",
+      "tema": "apoio-comunitario",
+      "subtema": "assistencia",
+      "titulo": "Inscrição no Cadastro Único",
+      "pergunta": "Como me inscrever no Cadastro Único?",
+      "palavras_chave": [
+        "cadúnico",
+        "cadastro único",
+        "inscrição cadastro único",
+        "posto cadastro único"
+      ],
+      "orientacao": "Consulte o serviço federal de inscrição no Cadastro Único. Use o aplicativo ou o localizador indicado na página para achar um posto de atendimento e confirme como é feito o atendimento no seu município.",
+      "fonte": {
+        "orgao": "Ministério do Desenvolvimento e Assistência Social",
+        "url": "https://www.gov.br/pt-br/servicos/inscrever-se-no-cadastro-unico-para-programas-sociais-do-governo-federal/"
+      },
+      "abrangencia": "Brasil",
+      "data_verificacao": "2026-11-17"
+    },
+    {
+      "id": "apo-defensoria",
+      "tema": "apoio-comunitario",
+      "subtema": "direitos",
+      "titulo": "Agendamento na Defensoria Pública de SP",
+      "pergunta": "Como agendar atendimento na Defensoria de São Paulo?",
+      "palavras_chave": [
+        "defensoria",
+        "defensoria pública",
+        "agendar defensoria",
+        "primeiro atendimento defensoria"
+      ],
+      "orientacao": "Abra a página Agende seu atendimento da Defensoria Pública de São Paulo. Consulte as condições informadas pelo órgão e use a opção de agendamento indicada para iniciar o atendimento.",
+      "fonte": {
+        "orgao": "Defensoria Pública do Estado de São Paulo",
+        "url": "https://www.defensoria.sp.def.br/atendimento/agende-seu-atendimento"
+      },
+      "abrangencia": "São Paulo",
+      "data_verificacao": "2026-11-17"
+    },
+    {
+      "id": "apo-consumidor",
+      "tema": "apoio-comunitario",
+      "subtema": "direitos",
+      "titulo": "Reclamação no Consumidor.gov.br",
+      "pergunta": "Como reclamar de uma empresa no Consumidor.gov.br?",
+      "palavras_chave": [
+        "consumidor gov br",
+        "reclamar de empresa",
+        "reclamação fornecedor",
+        "reclamação empresa",
+        "reclamação de compra"
+      ],
+      "orientacao": "Abra o Consumidor.gov.br e confira se a empresa participa da plataforma. Se ela estiver cadastrada, siga o caminho de registro da reclamação e acompanhe a resposta no próprio site.",
+      "fonte": {
+        "orgao": "Secretaria Nacional do Consumidor",
+        "url": "https://www.consumidor.gov.br/pages/conteudo/publico/1"
+      },
+      "abrangencia": "Brasil",
+      "data_verificacao": "2026-11-17"
+    },
+    {
+      "id": "apo-ubs",
+      "tema": "apoio-comunitario",
+      "subtema": "saude",
+      "titulo": "Localização de UBS em São Paulo",
+      "pergunta": "Como encontrar a UBS de referência na cidade de São Paulo?",
+      "palavras_chave": [
+        "ubs",
+        "unidade básica de saúde",
+        "posto de saúde",
+        "busca saúde",
+        "localizar ubs"
+      ],
+      "orientacao": "Use o Busca Saúde da Prefeitura de São Paulo para localizar estabelecimentos da rede SUS do município. Para a UBS de referência, pesquise o endereço na ferramenta oficial e confirme os dados da unidade.",
+      "fonte": {
+        "orgao": "Prefeitura de São Paulo • Secretaria Municipal da Saúde",
+        "url": "https://prefeitura.sp.gov.br/web/saude/w/busca-saude"
+      },
+      "abrangencia": "Município de São Paulo",
+      "data_verificacao": "2026-11-17"
+    }
+  ]
+}

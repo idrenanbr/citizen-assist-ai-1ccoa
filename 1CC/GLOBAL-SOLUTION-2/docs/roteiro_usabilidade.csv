@@ -1,0 +1,7 @@
+tarefa,entradas,passos_de_interacao,criterio,passou
+Consultar pela pergunta,Como encontro a UBS de referência?,1,Localização de UBS em São Paulo,True
+Navegar nos três temas,1 / 2 / 3,3,Temas relacionados:,True
+Abrir um registro pelo menu,1 / doc-cpf,2,Assunto: Situação cadastral do CPF,True
+Corrigir opção inválida,99 / /temas / 2,3,Opção inexistente,True
+Entender ausência de orientação,Como plantar girassol?,1,Não encontrei informação verificada,True
+Reconhecer ambiguidade,CPF e passaporte,1,Encontrei mais de um assunto,True

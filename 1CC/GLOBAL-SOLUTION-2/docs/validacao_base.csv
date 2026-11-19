@@ -1,0 +1,6 @@
+variante,mensagem,passou
+ausente,não encontrado,True
+vazio,está vazio,True
+malformado,JSON inválido,True
+inconsistente,lista de temas,True
+duplicado,duplicado,True
