@@ -32,6 +32,14 @@ O menu aceita perguntas em português e os números 1, 2 e 3. Cada tema mostra s
 | Entrada vazia ou opção `99` | Explica como prosseguir. |
 | `1` e depois `doc-cpf` | Abre Documentos e seleciona a orientação cadastrada por ID. |
 
+O exemplo abaixo mostra a saída do modelo B para a pergunta “Qual é a UBS do meu bairro?”.
+
+> **Assunto:** Localização de UBS em São Paulo  
+> **Próximo passo:** Use o Busca Saúde da Prefeitura de São Paulo para localizar estabelecimentos da rede SUS do município. Para a UBS de referência, pesquise o endereço na ferramenta oficial e confirme os dados da unidade.  
+> **Fonte:** [Prefeitura de São Paulo • Secretaria Municipal da Saúde](https://prefeitura.sp.gov.br/web/saude/w/busca-saude)  
+> **Verificação:** 2026-11-17 · **Abrangência:** Município de São Paulo  
+> **Limite:** Protótipo informativo. Confirme documentos, horários e condições no canal oficial.
+
 ## Base e busca
 
 [`data/base.json`](data/base.json) contém 15 registros verificados em 17/11/2026, cinco para cada tema: Documentos, Serviços digitais e Apoio comunitário. Cada registro traz ID, tema, subtema, pergunta de referência, palavras-chave, orientação, órgão, URL HTTPS, abrangência e data de verificação. As fontes estão no próprio JSON e no apêndice do relatório.
