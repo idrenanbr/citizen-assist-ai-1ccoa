@@ -69,3 +69,4 @@ A comparação ainda depende do vocabulário da base. Como próximos passos, tes
 
 - [Relatório técnico](docs/relatorio.pdf)
 - [Uso de IA e validação](docs/uso_ia.md)
+- [Vídeo de apresentação no YouTube](https://www.youtube.com/watch?v=ovD6o3ZpkAg)
